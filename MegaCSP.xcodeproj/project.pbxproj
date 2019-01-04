@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		AB84476F21DFB545008489A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB84476E21DFB545008489A2 /* AppDelegate.swift */; };
-		AB84477121DFB545008489A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB84477021DFB545008489A2 /* ViewController.swift */; };
 		AB84477421DFB545008489A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB84477221DFB545008489A2 /* Main.storyboard */; };
 		AB84477621DFB552008489A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB84477521DFB552008489A2 /* Assets.xcassets */; };
 		AB84477921DFB553008489A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB84477721DFB553008489A2 /* LaunchScreen.storyboard */; };
+		AB84478521DFC2A6008489A2 /* AlgorithmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB84478421DFC2A5008489A2 /* AlgorithmViewController.swift */; };
+		AB84478A21DFC2E9008489A2 /* AbstractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB84478921DFC2E9008489A2 /* AbstractionViewController.swift */; };
+		AB84478D21DFC300008489A2 /* ArtCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB84478B21DFC300008489A2 /* ArtCollectionViewController.swift */; };
+		AB84478E21DFC300008489A2 /* CreativityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB84478C21DFC300008489A2 /* CreativityViewController.swift */; };
+		AB84479121DFC381008489A2 /* DataViewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB84478F21DFC381008489A2 /* DataViewControllerTableViewController.swift */; };
+		AB84479221DFC381008489A2 /* BucketItemCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB84479021DFC381008489A2 /* BucketItemCellTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AB84476B21DFB545008489A2 /* MegaCSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MegaCSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB84476E21DFB545008489A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AB84477021DFB545008489A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AB84477321DFB545008489A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB84477521DFB552008489A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB84477821DFB553008489A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB84477A21DFB553008489A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB84478421DFC2A5008489A2 /* AlgorithmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlgorithmViewController.swift; path = ../../../../AlgorithmsCaroline/AlgorithmsCaroline/Controller/AlgorithmViewController.swift; sourceTree = "<group>"; };
+		AB84478921DFC2E9008489A2 /* AbstractionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AbstractionViewController.swift; path = ../../../../AbstractionApp/AbstractionApp/Controller/AbstractionViewController.swift; sourceTree = "<group>"; };
+		AB84478B21DFC300008489A2 /* ArtCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArtCollectionViewController.swift; path = ../../../../CreativityProject/CreativityProject/Controller/ArtCollectionViewController.swift; sourceTree = "<group>"; };
+		AB84478C21DFC300008489A2 /* CreativityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreativityViewController.swift; path = ../../../../CreativityProject/CreativityProject/Controller/CreativityViewController.swift; sourceTree = "<group>"; };
+		AB84478F21DFC381008489A2 /* DataViewControllerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataViewControllerTableViewController.swift; path = ../../../../BucketListApp/BucketListApp/Controller/DataViewControllerTableViewController.swift; sourceTree = "<group>"; };
+		AB84479021DFC381008489A2 /* BucketItemCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BucketItemCellTableViewCell.swift; path = ../../../../BucketListApp/BucketListApp/Controller/BucketItemCellTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +64,75 @@
 		AB84476D21DFB545008489A2 /* MegaCSP */ = {
 			isa = PBXGroup;
 			children = (
-				AB84476E21DFB545008489A2 /* AppDelegate.swift */,
-				AB84477021DFB545008489A2 /* ViewController.swift */,
-				AB84477221DFB545008489A2 /* Main.storyboard */,
-				AB84477521DFB552008489A2 /* Assets.xcassets */,
-				AB84477721DFB553008489A2 /* LaunchScreen.storyboard */,
-				AB84477A21DFB553008489A2 /* Info.plist */,
+				AB84478121DFB577008489A2 /* Resources */,
+				AB84478321DFC232008489A2 /* Controller */,
+				AB84478021DFB569008489A2 /* View */,
 			);
 			path = MegaCSP;
+			sourceTree = "<group>";
+		};
+		AB84478021DFB569008489A2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB84477221DFB545008489A2 /* Main.storyboard */,
+				AB84477721DFB553008489A2 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB84478121DFB577008489A2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AB84476E21DFB545008489A2 /* AppDelegate.swift */,
+				AB84477521DFB552008489A2 /* Assets.xcassets */,
+				AB84477A21DFB553008489A2 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AB84478221DFB584008489A2 /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				AB84478421DFC2A5008489A2 /* AlgorithmViewController.swift */,
+			);
+			path = Algorithm;
+			sourceTree = "<group>";
+		};
+		AB84478321DFC232008489A2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AB84478821DFC2BB008489A2 /* Data */,
+				AB84478721DFC2B2008489A2 /* Abstraction */,
+				AB84478621DFC2AA008489A2 /* Creativity */,
+				AB84478221DFB584008489A2 /* Algorithm */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AB84478621DFC2AA008489A2 /* Creativity */ = {
+			isa = PBXGroup;
+			children = (
+				AB84478B21DFC300008489A2 /* ArtCollectionViewController.swift */,
+				AB84478C21DFC300008489A2 /* CreativityViewController.swift */,
+			);
+			path = Creativity;
+			sourceTree = "<group>";
+		};
+		AB84478721DFC2B2008489A2 /* Abstraction */ = {
+			isa = PBXGroup;
+			children = (
+				AB84478921DFC2E9008489A2 /* AbstractionViewController.swift */,
+			);
+			path = Abstraction;
+			sourceTree = "<group>";
+		};
+		AB84478821DFC2BB008489A2 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				AB84479021DFC381008489A2 /* BucketItemCellTableViewCell.swift */,
+				AB84478F21DFC381008489A2 /* DataViewControllerTableViewController.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +206,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB84477121DFB545008489A2 /* ViewController.swift in Sources */,
+				AB84479121DFC381008489A2 /* DataViewControllerTableViewController.swift in Sources */,
+				AB84478E21DFC300008489A2 /* CreativityViewController.swift in Sources */,
+				AB84479221DFC381008489A2 /* BucketItemCellTableViewCell.swift in Sources */,
+				AB84478A21DFC2E9008489A2 /* AbstractionViewController.swift in Sources */,
+				AB84478521DFC2A6008489A2 /* AlgorithmViewController.swift in Sources */,
+				AB84478D21DFC300008489A2 /* ArtCollectionViewController.swift in Sources */,
 				AB84476F21DFB545008489A2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,7 +359,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MegaCSP/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MegaCSP/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +376,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MegaCSP/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MegaCSP/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
