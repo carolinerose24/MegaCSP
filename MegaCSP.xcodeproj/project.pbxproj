@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB090BA521E4F867006FE337 /* BucketItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB090BA421E4F867006FE337 /* BucketItem.swift */; };
+		AB090BA721E4F9A1006FE337 /* BucketItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB090BA621E4F9A0006FE337 /* BucketItem.swift */; };
 		AB84476F21DFB545008489A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB84476E21DFB545008489A2 /* AppDelegate.swift */; };
 		AB84477421DFB545008489A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB84477221DFB545008489A2 /* Main.storyboard */; };
 		AB84477621DFB552008489A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB84477521DFB552008489A2 /* Assets.xcassets */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB090BA421E4F867006FE337 /* BucketItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BucketItem.swift; path = ../../../../BucketListApp/BucketListApp/Model/BucketItem.swift; sourceTree = "<group>"; };
+		AB090BA621E4F9A0006FE337 /* BucketItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItem.swift; sourceTree = "<group>"; };
 		AB84476B21DFB545008489A2 /* MegaCSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MegaCSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB84476E21DFB545008489A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB84477321DFB545008489A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -78,6 +82,7 @@
 		AB84478021DFB569008489A2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				AB090BA621E4F9A0006FE337 /* BucketItem.swift */,
 				AB84479321DFC575008489A2 /* ArtCell.swift */,
 				AB84479421DFC575008489A2 /* DrawingView.swift */,
 				AB84477221DFB545008489A2 /* Main.storyboard */,
@@ -135,6 +140,7 @@
 		AB84478821DFC2BB008489A2 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				AB090BA421E4F867006FE337 /* BucketItem.swift */,
 				AB84479021DFC381008489A2 /* BucketItemCellTableViewCell.swift */,
 				AB84478F21DFC381008489A2 /* DataViewControllerTableViewController.swift */,
 			);
@@ -220,7 +226,9 @@
 				AB84478D21DFC300008489A2 /* ArtCollectionViewController.swift in Sources */,
 				AB84479621DFC575008489A2 /* DrawingView.swift in Sources */,
 				AB84476F21DFB545008489A2 /* AppDelegate.swift in Sources */,
+				AB090BA521E4F867006FE337 /* BucketItem.swift in Sources */,
 				AB84479521DFC575008489A2 /* ArtCell.swift in Sources */,
+				AB090BA721E4F9A1006FE337 /* BucketItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
