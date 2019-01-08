@@ -190,7 +190,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppInventor12:4" translatesAutoresizingMaskIntoConstraints="NO" id="kxJ-6T-hhg">
-                                <rect key="frame" x="16" y="45" width="343" height="16"/>
+                                <rect key="frame" x="16" y="45" width="343" height="449"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ljb-sv-SVy">
                                 <rect key="frame" x="16" y="515" width="343" height="132"/>
@@ -232,7 +232,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BC" translatesAutoresizingMaskIntoConstraints="NO" id="Oam-D2-v4q">
-                                <rect key="frame" x="16" y="45" width="343" height="16"/>
+                                <rect key="frame" x="16" y="45" width="343" height="238"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="343" id="WZb-l2-qhC"/>
                                 </constraints>
@@ -259,14 +259,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Binary" translatesAutoresizingMaskIntoConstraints="NO" id="hYl-0P-Pag">
-                                <rect key="frame" x="16" y="45" width="343" height="365"/>
+                                <rect key="frame" x="16" y="45" width="343" height="394"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="365" id="JeC-dt-z61"/>
                                     <constraint firstAttribute="width" constant="343" id="aST-eN-tSc"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="25u-W7-m5V" userLabel="BinaryText">
-                                <rect key="frame" x="16" y="425" width="343" height="142.5"/>
+                                <rect key="frame" x="16" y="454" width="343" height="198"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="343" id="0eP-em-4pZ"/>
                                     <constraint firstAttribute="height" constant="198" id="LDW-Ln-OzR"/>
@@ -300,11 +300,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LogicGate1" translatesAutoresizingMaskIntoConstraints="NO" id="9fo-b8-XAC">
-                                <rect key="frame" x="16" y="35" width="343" height="16"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="LogicGate.png" translatesAutoresizingMaskIntoConstraints="NO" id="9fo-b8-XAC">
+                                <rect key="frame" x="16" y="35" width="343" height="122"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l3g-OF-S17">
-                                <rect key="frame" x="16" y="66" width="343" height="173"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l3g-OF-S17">
+                                <rect key="frame" x="16" y="156" width="343" height="173"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="343" id="DM0-96-LMy"/>
                                     <constraint firstAttribute="height" constant="173" id="lfH-0F-caH"/>
@@ -317,11 +317,10 @@
                         </subviews>
                         <color key="backgroundColor" red="0.62687668279999997" green="0.95144834850000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="9fo-b8-XAC" firstAttribute="trailing" secondItem="7WV-5M-eQE" secondAttribute="trailingMargin" id="5PX-TH-rq1"/>
-                            <constraint firstItem="9fo-b8-XAC" firstAttribute="leading" secondItem="7WV-5M-eQE" secondAttribute="leadingMargin" id="Jse-IU-Uha"/>
-                            <constraint firstItem="9fo-b8-XAC" firstAttribute="centerX" secondItem="7WV-5M-eQE" secondAttribute="centerX" id="W2Y-AN-u6f"/>
-                            <constraint firstItem="l3g-OF-S17" firstAttribute="top" secondItem="9fo-b8-XAC" secondAttribute="bottom" constant="15" id="kge-1t-qSB"/>
-                            <constraint firstItem="9fo-b8-XAC" firstAttribute="top" secondItem="NiO-Sx-lcf" secondAttribute="top" constant="15" id="lHA-SO-hym"/>
+                            <constraint firstItem="9fo-b8-XAC" firstAttribute="trailing" secondItem="l3g-OF-S17" secondAttribute="trailing" id="Dcn-Fu-71i"/>
+                            <constraint firstItem="9fo-b8-XAC" firstAttribute="top" secondItem="NiO-Sx-lcf" secondAttribute="top" constant="15" id="PNR-RX-UFY"/>
+                            <constraint firstItem="l3g-OF-S17" firstAttribute="top" secondItem="9fo-b8-XAC" secondAttribute="bottom" constant="-1" id="RQc-a7-rfN"/>
+                            <constraint firstItem="9fo-b8-XAC" firstAttribute="leading" secondItem="l3g-OF-S17" secondAttribute="leading" id="cPX-C6-IFd"/>
                             <constraint firstItem="l3g-OF-S17" firstAttribute="centerX" secondItem="7WV-5M-eQE" secondAttribute="centerX" id="rq2-kg-8ql"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="NiO-Sx-lcf"/>
@@ -474,11 +473,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="AppInventor12:4" width="16" height="16"/>
-        <image name="BC" width="16" height="16"/>
-        <image name="Binary" width="16" height="16"/>
-        <image name="BucketListApp12:4" width="16" height="16"/>
-        <image name="LogicGate1" width="16" height="16"/>
+        <image name="AppInventor12:4" width="456" height="449"/>
+        <image name="BC" width="208" height="238"/>
+        <image name="Binary" width="900" height="546"/>
+        <image name="BucketListApp12:4" width="530" height="165"/>
+        <image name="LogicGate.png" width="16" height="16"/>
         <image name="swiftSample" width="16" height="16"/>
     </resources>
 </document>
