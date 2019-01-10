@@ -45,12 +45,17 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gyJ-UT-WrN">
                                         <rect key="frame" x="0.0" y="192" width="67" height="30"/>
                                         <state key="normal" title="Algorithm"/>
-                                        <connections>
-                                            <segue destination="RrU-2K-qCD" kind="show" id="sLM-eX-12x"/>
-                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4LA-bo-EDb">
+                                <rect key="frame" x="64" y="354" width="103" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Global Impacts"/>
+                                <connections>
+                                    <segue destination="RrU-2K-qCD" kind="show" id="wwj-6U-ZSN"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="UgC-SF-gAx"/>
@@ -300,7 +305,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="LogicGate.png" translatesAutoresizingMaskIntoConstraints="NO" id="9fo-b8-XAC">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="LogicGate" translatesAutoresizingMaskIntoConstraints="NO" id="9fo-b8-XAC">
                                 <rect key="frame" x="16" y="35" width="343" height="122"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l3g-OF-S17">
@@ -433,9 +438,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nwb-LN-5fw">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nwb-LN-5fw">
                                 <rect key="frame" x="13" y="64" width="381" height="66"/>
                                 <color key="tintColor" red="0.21965507040000001" green="1" blue="0.99977254910000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="66" id="zLH-1Z-mwc"/>
+                                </constraints>
                                 <attributedString key="attributedText">
                                     <fragment content="Algorithm">
                                         <attributes>
@@ -446,19 +454,19 @@
                                 </attributedString>
                                 <color key="highlightedColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="swiftSample" translatesAutoresizingMaskIntoConstraints="NO" id="rT7-pm-fse">
-                                <rect key="frame" x="13" y="158" width="381" height="547.33333333333326"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SwiftHaiku" translatesAutoresizingMaskIntoConstraints="NO" id="rT7-pm-fse">
+                                <rect key="frame" x="13" y="158" width="381" height="547"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6RM-ic-43s" firstAttribute="bottom" secondItem="rT7-pm-fse" secondAttribute="bottom" constant="61" id="JjV-2w-ovX"/>
-                            <constraint firstItem="Nwb-LN-5fw" firstAttribute="trailing" secondItem="G36-4U-LMG" secondAttribute="trailingMargin" id="PQE-GA-9pA"/>
-                            <constraint firstItem="Nwb-LN-5fw" firstAttribute="leading" secondItem="rT7-pm-fse" secondAttribute="leading" id="Tmk-aT-Ita"/>
-                            <constraint firstItem="Nwb-LN-5fw" firstAttribute="leading" secondItem="6RM-ic-43s" secondAttribute="leading" constant="13" id="WaK-b8-hce"/>
-                            <constraint firstItem="rT7-pm-fse" firstAttribute="top" secondItem="Nwb-LN-5fw" secondAttribute="bottom" constant="42" id="hKA-0e-hk0"/>
-                            <constraint firstItem="Nwb-LN-5fw" firstAttribute="trailing" secondItem="rT7-pm-fse" secondAttribute="trailing" id="pJi-Sl-LXj"/>
-                            <constraint firstItem="Nwb-LN-5fw" firstAttribute="top" secondItem="6RM-ic-43s" secondAttribute="top" constant="44" id="uQc-gD-4Bn"/>
+                            <constraint firstItem="Nwb-LN-5fw" firstAttribute="trailing" secondItem="rT7-pm-fse" secondAttribute="trailing" id="Ga2-os-LtA"/>
+                            <constraint firstItem="Nwb-LN-5fw" firstAttribute="top" secondItem="6RM-ic-43s" secondAttribute="top" constant="44" id="K5h-QY-kwG"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="rT7-pm-fse" secondAttribute="bottom" constant="-38" id="PBg-mg-Ony"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Nwb-LN-5fw" secondAttribute="trailing" constant="-35" id="PhN-bm-Vjo"/>
+                            <constraint firstItem="rT7-pm-fse" firstAttribute="top" secondItem="Nwb-LN-5fw" secondAttribute="bottom" constant="28" id="QHW-qx-vok"/>
+                            <constraint firstItem="Nwb-LN-5fw" firstAttribute="leading" secondItem="6RM-ic-43s" secondAttribute="leading" constant="13" id="QLW-fx-60p"/>
+                            <constraint firstItem="Nwb-LN-5fw" firstAttribute="leading" secondItem="rT7-pm-fse" secondAttribute="leading" id="gmP-tN-zYI"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6RM-ic-43s"/>
                     </view>
@@ -471,13 +479,79 @@
             </objects>
             <point key="canvasLocation" x="3708" y="134"/>
         </scene>
+        <!--Impact View Controller-->
+        <scene sceneID="DSt-UC-Ma8">
+            <objects>
+                <viewController id="YRL-yO-jyc" customClass="ImpactViewController" customModule="GlobalImpactApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Thd-fD-Aqy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="647-Ef-ZdC">
+                                <rect key="frame" x="0.0" y="20" width="375" height="297"/>
+                            </mapView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MegImage" translatesAutoresizingMaskIntoConstraints="NO" id="fhC-Jd-ZuT">
+                                <rect key="frame" x="0.0" y="386" width="375" height="203"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="203" id="ruZ-qz-lch"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Global Impacts App" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hhp-hA-LFW">
+                                <rect key="frame" x="43" y="611" width="295" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="AnR-Mi-sd6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LPK-bH-uLO">
+                                <rect key="frame" x="21" y="325" width="338" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="39" id="kTu-rN-UTA"/>
+                                </constraints>
+                                <state key="normal" title="Animate to impact area"/>
+                                <connections>
+                                    <action selector="animateClick:" destination="YRL-yO-jyc" eventType="touchUpInside" id="Ij7-Bl-Xdy"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Rl6-vO-RQk" firstAttribute="bottom" secondItem="Hhp-hA-LFW" secondAttribute="bottom" constant="35" id="1av-Jw-z3p"/>
+                            <constraint firstItem="647-Ef-ZdC" firstAttribute="leading" secondItem="Thd-fD-Aqy" secondAttribute="leading" id="3Ef-eA-JVC"/>
+                            <constraint firstItem="647-Ef-ZdC" firstAttribute="leading" secondItem="fhC-Jd-ZuT" secondAttribute="leading" id="8d7-RY-6zA"/>
+                            <constraint firstItem="fhC-Jd-ZuT" firstAttribute="top" secondItem="LPK-bH-uLO" secondAttribute="bottom" constant="22" id="8xP-gh-1e1"/>
+                            <constraint firstItem="Hhp-hA-LFW" firstAttribute="leading" secondItem="Rl6-vO-RQk" secondAttribute="leading" constant="43" id="LQv-xj-94f"/>
+                            <constraint firstItem="647-Ef-ZdC" firstAttribute="top" secondItem="Rl6-vO-RQk" secondAttribute="top" id="NVh-Sg-qfe"/>
+                            <constraint firstItem="647-Ef-ZdC" firstAttribute="trailing" secondItem="fhC-Jd-ZuT" secondAttribute="trailing" id="PTe-fz-tcS"/>
+                            <constraint firstItem="LPK-bH-uLO" firstAttribute="leading" secondItem="Rl6-vO-RQk" secondAttribute="leading" constant="21" id="SRc-QC-5qA"/>
+                            <constraint firstItem="LPK-bH-uLO" firstAttribute="trailing" secondItem="Thd-fD-Aqy" secondAttribute="trailingMargin" id="Wk1-O9-dU2"/>
+                            <constraint firstAttribute="trailing" secondItem="647-Ef-ZdC" secondAttribute="trailing" id="Xe8-Ll-Zwz"/>
+                            <constraint firstItem="LPK-bH-uLO" firstAttribute="centerX" secondItem="Hhp-hA-LFW" secondAttribute="centerX" id="bwA-eI-pWv"/>
+                            <constraint firstItem="LPK-bH-uLO" firstAttribute="top" secondItem="647-Ef-ZdC" secondAttribute="bottom" constant="8" symbolic="YES" id="cQc-zm-kgj"/>
+                            <constraint firstItem="Hhp-hA-LFW" firstAttribute="top" secondItem="fhC-Jd-ZuT" secondAttribute="bottom" constant="22" id="zgB-We-pFr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Rl6-vO-RQk"/>
+                    </view>
+                    <connections>
+                        <outlet property="animationButton" destination="LPK-bH-uLO" id="xj1-Ru-GxK"/>
+                        <outlet property="impactImage" destination="fhC-Jd-ZuT" id="Cb8-Jj-YDL"/>
+                        <outlet property="mapView" destination="647-Ef-ZdC" id="ay0-Jk-EY1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="luM-n6-L3A" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4446" y="134"/>
+        </scene>
     </scenes>
     <resources>
         <image name="AppInventor12:4" width="456" height="449"/>
         <image name="BC" width="208" height="238"/>
         <image name="Binary" width="900" height="546"/>
         <image name="BucketListApp12:4" width="530" height="165"/>
-        <image name="LogicGate.png" width="16" height="16"/>
-        <image name="swiftSample" width="16" height="16"/>
+        <image name="LogicGate" width="275" height="183"/>
+        <image name="MegImage" width="600" height="325"/>
+        <image name="SwiftHaiku" width="2100" height="1500"/>
     </resources>
 </document>
